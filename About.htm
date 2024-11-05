@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ul {
+            list-style-type: none; /* Remove default bullet points */
+            margin:30px;
+            padding: 0px; /* Remove padding */
+        }
+
+        .name {
+            font-weight: bold; /* Make the text bold */
+            font-size: 18px; /* Increase font size */
+            display: inline; /* Keep it on the same line */
+            margin-right: 0px; /* Space to the right */
+            color: #8ED081;
+        }
+
+        .description {
+            font-size: 15px; /* Smaller size for the description */
+            display: inline; /* Keep it on the same line */
+            color: #8ED081;
+        }
+        body {
+            background-color: #ECE4B7;
+        }
+        p{
+            margin-left: 78%;
+            color: #43281c;
+            font-size: 9px;
+        }
+
+
+        p {
+                color: #8ED081; /* Set font color to white */
+            }
+
+            /* Flexbox styling for the photo and text */
+            .about-section {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 20px;
+            }
+
+            .about-section img {
+                width: 10%; 
+                margin-right: 20px;
+            }
+
+            .about-section .about-text {
+                max-width: 600px;
+                color: #e85617;
+            }
+
+    </style>
+    <title>About</title>
+    <link rel="icon" type="icon" href="favicon1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="Contact Us.html" target="_blank">Contact Us</a></li>
+            <li><a href="Album.htm" target="_blank">Album</a></li>
+            <li><a href="About.htm">About</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-section">
+        <img src="me.jpg" alt="Your Photo"> <!-- Replace with your photo's actual path -->
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>
+                Hello! My name is Marsha, a Computer Science student with a passion for technology and problem-solving.
+                I love taking on new challenges and refining my skills in web development and database management.
+            </p>
+        </div>
+    </section>
+
+    <ul>
+        <li>
+            <span class="name">Marsha</span>
+            <span class="description">is my name</span>
+        </li>
+        <li>
+            <span class="name">Pretty</span>
+            <span class="description">is my species</span>
+        </li>
+        <li>
+            <span class="name">My best</span>
+            <span class="description">is what I do</span>
+        </li>
+    </ul>
+    <p>Trust me, I'll figure it out...</p>
+
+</body>
+</html>
